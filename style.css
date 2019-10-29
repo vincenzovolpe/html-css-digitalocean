@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #0248ff url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+
+#nav-top {
+    height: 40px;
+    border-bottom: 1px solid #e5e8ed;
+    background-color: #ffffff;
+    padding-left: 20px;
+}
+
+header span {
+    font-size: 9px;
+    background-color: #00d7d2;
+    border-radius: 5px;
+    color: #031b4e;
+    cursor: default;
+    padding: 4px 8px;
+    line-height: 40px;
+    margin-right: 8px;
+}
+
+#nav-top .col-lg-3 {
+    cursor: pointer;
+}
+
+header p {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5b6987;
+}
+header p:hover {
+    color: #0069ff;
+}
+#nav-top .list-inline li a {
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #5b6987;
+}
+
+#nav-top ul {
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+#nav-bottom {
+    height: 65px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    line-height: 65px;
+    color: #5b6987;
+}
+
+#nav-bottom img {
+    object-fit: cover;
+    object-position: center;
+    width: 173px;
+}
+
+#nav-bottom li:nth-child(2) {
+    padding-left: 40px;
+}
+
+#nav-bottom .list-inline li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #031b4e;
+    font-size: 16px;
+}
+
+#nav-bottom .list-inline li a:hover{
+    color: #0069ff;
+}
+
+#nav-bottom li:last-child a{
+    background-color:
+    transparent;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    cursor: pointer;
+    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .25s linear,border-color .25s linear,color .25s linear;
+}

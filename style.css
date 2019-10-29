@@ -98,3 +98,9 @@ header p:hover {
     text-decoration: none;
     transition: background-color .25s linear,border-color .25s linear,color .25s linear;
 }
+
+#nav-bottom li:last-child a:hover{
+    background-color:#0069ff;
+    color:#fff;
+    border-color:#0069ff;
+}

@@ -92,7 +92,7 @@ header p:hover {
     color: #0069ff;
 }
 
-#nav-bottom li:last-child a{
+#nav-bottom li:nth-child(8) a{
     background-color:
     transparent;
     border: 1px solid #0069ff;
@@ -108,11 +108,11 @@ header p:hover {
     transition: background-color .25s linear,border-color .25s linear,color .25s linear;
 }
 
-#nav-bottom li:last-child {
+#nav-bottom li:nth-child(8) {
     padding-right: 25px;
 }
 
-#nav-bottom li:last-child a:hover{
+#nav-bottom li:nth-child(8) a:hover{
     background-color:#0069ff;
     color:#fff;
     border-color:#0069ff;

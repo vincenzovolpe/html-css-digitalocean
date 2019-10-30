@@ -248,27 +248,19 @@ main {
 }
 
 #div-business {
-    width: 1170px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#div-business ul {
-    height: 79px;
-    width: 1170px;
-}
-
-#div-business li {
-    margin-right: 26px;
+    text-align: justify;
 }
 
 #div-business img {
-
+    width: 100px;
+    display: inline-block;
+    height: auto;
 }
 
-.img-fluid {
-   height: 79px;
-   object-fit:cover;
+#div-business:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
 }
 
 
@@ -279,5 +271,13 @@ main {
 
     #nav-bottom,  #nav-top {
         background-color: transparent;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #div-business img {
+        width: 25%;
+        display: inline-block;
+        height: auto;
     }
 }

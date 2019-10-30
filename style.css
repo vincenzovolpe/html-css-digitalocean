@@ -48,15 +48,24 @@ header p:hover {
 }
 
 #my-mobile-menu-button a {
-    color: white;
-    font-size: 18px;
+    fill: hsla(0,0%,100%,.5);
     font-weight: bold;
     line-height: 65px;
     padding: 16px;
 }
 
+#my-mobile-menu-button .btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 #my-mobile-menu-button a {
     display: inline;
+}
+
+#my-mobile-menu-button i {
+    font-size: 25px;
+    color: lightgrey;ù
 }
 
 #nav-bottom {
@@ -295,6 +304,10 @@ main {
 
     #nav-bottom,  #nav-top {
         background-color: transparent;
+    }
+
+    .container-fluid {
+        position: absolute;
     }
 }
 

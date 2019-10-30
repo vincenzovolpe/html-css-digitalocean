@@ -47,6 +47,18 @@ header p:hover {
     margin-bottom: 0;
 }
 
+#my-mobile-menu-button a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 65px;
+    padding: 16px;
+}
+
+#my-mobile-menu-button a {
+    display: inline;
+}
+
 #nav-bottom {
     height: 65px;
     padding-left: 20px;
@@ -63,6 +75,10 @@ header p:hover {
 
 #nav-bottom li:nth-child(2) {
     padding-left: 40px;
+}
+
+#nav-bottom li:last-child {
+    float: right;
 }
 
 #nav-bottom .list-inline li a {
@@ -232,22 +248,22 @@ main {
 }
 
 #div-business {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
     text-align: center;
 }
 
 #div-business ul {
     height: 79px;
+    width: 1170px;
 }
 
 #div-business li {
-    float: left;
-    margin-right: 32px;
+    margin-right: 26px;
 }
 
 #div-business img {
-    float: left;
+
 }
 
 .img-fluid {
@@ -255,6 +271,13 @@ main {
    object-fit:cover;
 }
 
-.img-fluid img:last-child{
-   height: 39px;
+
+@media (min-width: 320px) and (max-width: 1199px) {
+    #nav-top {
+        display: none;
+    }
+
+    #nav-bottom,  #nav-top {
+        background-color: transparent;
+    }
 }

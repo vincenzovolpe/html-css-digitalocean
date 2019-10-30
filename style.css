@@ -196,7 +196,6 @@ main {
 .social-btn {
     margin-top: 16px;
     text-align: center;
-    width: 100%;
 }
 
 .social-link {
@@ -207,7 +206,7 @@ main {
     border-radius: 3px;
     display: inline-block;
     margin-top: 0;
-    width: 49.5%;
+    width: 48.5%;
     position: relative;
     font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -302,7 +301,7 @@ main {
         display: none;
     }
 
-    #nav-bottom,  #nav-top {
+    #nav-bottom, #nav-top {
         background-color: transparent;
     }
 

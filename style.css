@@ -357,6 +357,8 @@ header p:hover {
 @media (min-width: 1200px) {
     .my-custom-container{
         width: 900px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 

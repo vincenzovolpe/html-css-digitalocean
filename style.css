@@ -127,14 +127,10 @@ header p:hover {
     border-color:#0069ff;
 }
 
-main {
-    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
-    background-position: top;
-    background-repeat: no-repeat;
-    min-height: 800px;
+#jumpo-bg {
+    background: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
     padding-top: 105px;
 }
-
 
 #jumpo {
     padding-top: 100px;
@@ -295,9 +291,13 @@ main {
   display: inline-block;
 }
 
+#deploy {
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
 #deploy-text {
     text-align: center;
-    padding-top: 120px;
 }
 
 #deploy-text h2 {
@@ -334,14 +334,29 @@ main {
     font-weight: 550;
 }
 
+#deploy-content .row {
+    margin-bottom: 32px;
+    padding-left: 16px;
+    font: 400 16px/1.5 Sailec-Regular, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:rgba(3, 27, 78, .7);
+}
+
+#deploy-content h3 {
+    font-size: 18px;
+    margin-top: 8px;
+    color: #031b4e;
+    font-weight: 600;
+}
+
 .small-container {
     width: 900px;
 }
 
+
 /* Container small per la sezione deploy-content */
 @media (min-width: 1200px) {
     .my-custom-container{
-        width:900px;
+        width: 900px;
     }
 }
 
@@ -360,14 +375,14 @@ main {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+    #jumpo-bg {
+        background: none;
+        background-color: #0248fe;
+    }
+
     #div-business img {
         width: 40%;
         display: inline-block;
         height: auto;
-    }
-
-    main {
-        background-color: #0248ff;
-        background-image: none;
     }
 }

@@ -298,18 +298,51 @@ main {
 #deploy-text {
     text-align: center;
     padding-top: 120px;
-    padding-bottom: 64px;
-    height: 814px;
 }
 
 #deploy-text h2 {
     font-size: 36px;
     letter-spacing: -.9px;
-
-    font-weight: 600;
+    font-weight: 700;
     margin: 0 0 16px;
     font-family: Sailec-Bold, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #031b4e;
+}
+
+#deploy-text p {
+    font-size: 20px;
+    color: rgba(3, 27, 78, .7);
+    margin-bottom: 64px
+}
+
+#deploy-nav li {
+    padding: 17px 10px 17px 30px;
+    border-left: 2px solid #e5e8ed;
+}
+
+#deploy-nav li:first-child {
+    border-left-color: #0069ff;
+}
+
+#deploy-nav li:first-child a{
+    color: #031b4e;
+}
+
+#deploy-nav a {
+    color: rgba(3,27,78,.5);
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.small-container {
+    width: 900px;
+}
+
+/* Container small per la sezione deploy-content */
+@media (min-width: 1200px) {
+    .my-custom-container{
+        width:900px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 1199px) {

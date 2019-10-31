@@ -352,6 +352,9 @@ header p:hover {
     width: 900px;
 }
 
+#designed {
+    background-color: #f3f5f9;
+}
 
 /* Container small per la sezione deploy-content */
 @media (min-width: 1200px) {
@@ -402,7 +405,7 @@ header p:hover {
         width: 100%;
         margin-bottom: 32px
     }
-    
+
     #deploy .row {
         margin-bottom: 0;
     }

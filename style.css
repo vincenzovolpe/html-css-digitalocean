@@ -316,7 +316,7 @@ header p:hover {
 }
 
 #deploy-nav li {
-    padding: 17px 10px 17px 30px;
+    padding: 17px 10px 8px 30px;
     border-left: 2px solid #e5e8ed;
 }
 
@@ -386,5 +386,24 @@ header p:hover {
         width: 40%;
         display: inline-block;
         height: auto;
+    }
+
+    #deploy-nav {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1050px) {
+    #deploy {
+        padding-top: 60px;
+}
+
+@media (max-width: 479px) {
+    .col-xs-6 {
+        width: 100%;
+        margin-bottom: 32px
+    }
+
+    #deploy .row {
+        margin-bottom: 0;
     }
 }

@@ -354,7 +354,48 @@ header p:hover {
 
 #designed {
     background-color: #f3f5f9;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    text-align: center;
 }
+
+#designed h2 {
+    font-size: 36px;
+    letter-spacing: -.9px;
+    font-weight: 700;
+    margin: 0 0 16px;
+    font-family: Sailec-Bold, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #031b4e;
+}
+
+#designed p {
+    font-size: 20px;
+    color: rgba(3, 27, 78, .7);
+    margin-bottom: 64px
+}
+
+#designed figure img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 5px;
+    text
+    display: inline-block;
+
+}
+
+#designed .col-lg-1 {
+    top: 233px;
+}
+
+#designed i {
+    color: #acb4c6;
+}
+#designed .next {
+    color: #031b4e;
+}
+
+
 
 /* Container small per la sezione deploy-content */
 @media (min-width: 1200px) {

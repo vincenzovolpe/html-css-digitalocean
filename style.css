@@ -128,7 +128,7 @@ header p:hover {
 }
 
 main {
-    background: #0248ff url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
     background-position: top;
     background-repeat: no-repeat;
     min-height: 800px;
@@ -295,6 +295,22 @@ main {
   display: inline-block;
 }
 
+#deploy-text {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 64px;
+    height: 814px;
+}
+
+#deploy-text h2 {
+    font-size: 36px;
+    letter-spacing: -.9px;
+
+    font-weight: 600;
+    margin: 0 0 16px;
+    font-family: Sailec-Bold, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #031b4e;
+}
 
 @media (min-width: 320px) and (max-width: 1199px) {
     #nav-top {
@@ -315,5 +331,10 @@ main {
         width: 40%;
         display: inline-block;
         height: auto;
+    }
+
+    main {
+        background-color: #0248ff;
+        background-image: none;
     }
 }

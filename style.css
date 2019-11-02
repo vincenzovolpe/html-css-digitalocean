@@ -135,7 +135,7 @@ header p:hover {
     padding-top: 105px;
 }
 
-#jumpo {
+#jumpo-bg .row {
     padding-top: 100px;
     padding-bottom: 84px;
 }
@@ -469,6 +469,74 @@ header p:hover {
     font-weight: 600;
 }
 
+#service {
+    background: #031b4e url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+#service-table {
+    margin-bottom: none;
+}
+
+#service h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: -.9px;
+    font-weight: 600;
+    margin-bottom: none;
+}
+
+#service .row:first-child {
+    margin-bottom: 64px;
+}
+
+#service thead {
+    display: none;
+}
+
+#service tbody > tr:first-child td {
+    border-top: none;
+}
+
+#service tbody > tr > td {
+    color: white;
+    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#service tbody > tr:not(:last-child) td {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+
+#service tbody > tr > td:first-child {
+    font-weight: 700;
+}
+
+#service tbody > tr > td:nth-child(2) {
+    opacity: .6;
+}
+
+#service tbody > tr > td > a {
+    color: #00d7d2;
+    font-family: Sailec-Medium,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#service tbody > tr > td:last-child{
+    text-align: right;
+}
+
+#service tbody > tr > td > a:hover {
+    color: #005fe6;
+}
+
 /* Container small per la sezione deploy-content */
 @media (min-width: 900px) {
     .my-custom-container {
@@ -477,6 +545,7 @@ header p:hover {
         padding-right: 16px;
     }
 }
+
 
 @media (min-width: 320px) and (max-width: 1199px) {
     #nav-top {
@@ -491,7 +560,7 @@ header p:hover {
         position: absolute;
     }
 
-    #built {
+    #built, #service {
         padding-bottom: 60px;
         padding-top: 60px;
     }
@@ -530,8 +599,8 @@ header p:hover {
         }
     }
 
-    @media (min-width: 480px) and (max-width: 991px) {
-        #built .col-sm-6 {
-            padding-top: 32px;
-        }
+@media (min-width: 480px) and (max-width: 991px) {
+    #built .col-sm-6 {
+        padding-top: 32px;
     }
+}

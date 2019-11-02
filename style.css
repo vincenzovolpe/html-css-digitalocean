@@ -490,6 +490,11 @@ header p:hover {
     .container-fluid {
         position: absolute;
     }
+
+    #built {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

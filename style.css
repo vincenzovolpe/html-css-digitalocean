@@ -168,7 +168,6 @@ header p:hover {
     border: 1px solid rgba(3, 27, 78, .1);
     border-radius: 5px;
     padding: 32px;
-    height: 540px;
 }
 
 #jumpo-form .btn-default {
@@ -420,8 +419,54 @@ header p:hover {
     background-color: #0069ff;
 }
 
-#designed li:hover{
+#designed li:not(:first-child):hover {
     background-color: rgba(0,105,255,.2);
+}
+
+#built {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+#built h2 {
+    font-size: 36px;
+    letter-spacing: -.9px;
+    font-weight: 700;
+    margin: 0 0 80px;
+    font-family: Sailec-Bold, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #031b4e;
+    text-align: center;
+}
+
+#built svg {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 16px
+}
+
+#built .titolo {
+    color: #031b4e;
+    font-family: Sailec-Bold,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+#built .text {
+    font-size: 20px;
+    color: rgba(3, 27, 78, .7);
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+#built a {
+    font-family: Sailec-Medium,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: transparent;
+    color: #0069ff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* Container small per la sezione deploy-content */
@@ -477,5 +522,11 @@ header p:hover {
 
         #deploy .row {
             margin-bottom: 0;
+        }
+    }
+
+    @media (min-width: 480px) and (max-width: 991px) {
+        #built .col-sm-6 {
+            padding-top: 32px;
         }
     }

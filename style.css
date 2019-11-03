@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font: 400 16px/1.5 Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgba(3,27,78,.7);
+    text-rendering: optimizeLegibility;
+}
+
 #nav-top {
     height: 40px;
     border-bottom: 1px solid #e5e8ed;
@@ -128,6 +134,17 @@ header p:hover {
     background-color: #0069ff;
     color: #fff;
     border-color: #0069ff;
+}
+
+.centre-jumpo {
+    position: relative;
+    height: 505.35px;
+}
+
+#jumpo-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #jumpo-bg {
@@ -772,6 +789,30 @@ cite > span {
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #jumpo-text h1{
+        font-size: 54px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #jumpo-text h1{
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 767px) {
+    #jumpo-text h1 {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+    #jumpo-text p {
+        margin-bottom: 32px;
+    }
+    #jumpo-bg .row {
+        padding-top: 64px;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 1199px) {
     #nav-top {
@@ -791,6 +832,18 @@ cite > span {
         padding-top: 60px;
     }
 }
+@media (min-width: 480px) and (max-width: 767px) {
+    .centre-jumpo {
+        height: 260px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .centre-jumpo {
+        height: 350px;
+    }
+}
+
 
 @media (min-width: 320px) and (max-width: 767px) {
     #jumpo-bg {

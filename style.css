@@ -210,6 +210,26 @@ header p:hover {
     position: relative;
 }
 
+.login-choice span::before, .login-choice span::after {
+      background-color: #e5e8ed;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 37%;
+}
+
+.login-choice span::before {
+  right: 0.5em;
+  margin-left: -48%;
+}
+
+.login-choice span::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
 .social-btn {
     margin-top: 16px;
     text-align: center;

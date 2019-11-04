@@ -368,6 +368,11 @@ header p:hover {
     color: #031b4e;
 }
 
+#deploy-nav li:not(:first-child) a:hover {
+    color: #031b4e;
+    text-decoration: none;
+}
+
 #deploy-nav a {
     color: rgba(3, 27, 78, .5);
     font-size: 16px;
